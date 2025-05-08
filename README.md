@@ -9,6 +9,7 @@ Built as a group project in part for the required project component in CT5121 - 
 
 ### Dependencies
 <ul>
+  <li>Streamlit</li>
   <li>Ollama</li>
   <li>LightRAG</li>
 </ul>
