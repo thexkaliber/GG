@@ -7,3 +7,8 @@ Augmenting Finetuned Chain of Thought capable Large Reasoning Models with Retrie
 ### Team
 Built as a group project in part for the required project component in CT5121 - Advanced Natural Language Processing module at the University of Galway. 
 
+### Dependencies
+<ul>
+  <li>Ollama</li>
+  <li>LightRAG</li>
+</ul>
