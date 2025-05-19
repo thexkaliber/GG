@@ -1,5 +1,5 @@
 # GG
-GG: A Generate Role Playing Game using LRMs and LightRAG (a fork of GraphRAG)
+GG: A Generative Role Playing Game using LRMs and LightRAG (a fork of GraphRAG)
 
 
 Augmenting Finetuned Chain of Thought capable Large Reasoning Models with Retrieval Augmented Generation and Knowledge Graphs to drive a role-playing game with infinite narrative choices and track game world developments.
