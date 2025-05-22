@@ -5,11 +5,14 @@ GG: A Generative Role Playing Game using LRMs and LightRAG (a fork of GraphRAG)
 Augmenting Finetuned Chain of Thought capable Large Reasoning Models with Retrieval Augmented Generation and Knowledge Graphs to drive a role-playing game with infinite narrative choices and track game world developments.
 
 ### Team
-Eron
-Jiaheng Yang
-Junhan Guan
-Srihari
-Xiao Ying
+<ul>
+  <li>Data Engineering - Eron</li>
+  <li>Synthetic Data - Jiaheng Yang</li>
+  <li>Model Training - Xiao Ying</li>
+  <li>RAG System - Srihari</li>
+  <li>Streamlit Frontend - Junhan Guan</li>
+</ul>
+
 
 Built as a group project in part for the required project component in CT5121 - Advanced Natural Language Processing module at the University of Galway. 
 
