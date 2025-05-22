@@ -6,7 +6,7 @@ Augmenting Finetuned Chain of Thought capable Large Reasoning Models with Retrie
 
 ### Team
 <ul>
-  <li>Data Engineering - Eron</li>
+  <li>Data Engineering - Luao Zhang</li>
   <li>Synthetic Data - Jiaheng Yang</li>
   <li>Model Training - Xiao Ying</li>
   <li>RAG System - Srihari</li>
