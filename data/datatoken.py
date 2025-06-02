@@ -84,7 +84,7 @@ def process_game_data(input_file, output_file):
         json.dump(processed_data, f, ensure_ascii=False, indent=2)
 
 # 使用示例
-input_path = '/Users/luao/Downloads/data/train.json'
-output_path = '/Users/luao/Downloads/data/processed_train.json'
+input_path = '/data/train.json'
+output_path = '/data/processed_train.json'
 
 process_game_data(input_path, output_path)
