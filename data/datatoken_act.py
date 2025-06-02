@@ -1,7 +1,7 @@
 import json
 
 # 读取train.json文件
-with open('/Users/luao/Downloads/data/processed_train.json', 'r', encoding='utf-8') as f:
+with open(f'/data/processed_train.json', 'r', encoding='utf-8') as f:
     train_data = json.load(f)
 
 # 创建新字典来存储所有action
