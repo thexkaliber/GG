@@ -22,3 +22,7 @@ Built as a group project in part for the required project component in CT5121 - 
   <li>Ollama</li>
   <li>LightRAG</li>
 </ul>
+
+### Data 
+
+We use the [JerichoWorld Dataset](https://github.com/JerichoWorld/JerichoWorld) as a base and generate Synthetic Data out of it to train our Large Reasoning Model.
