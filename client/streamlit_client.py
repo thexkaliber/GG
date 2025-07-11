@@ -333,8 +333,6 @@ def extract_knowledge_graph():
         for role, message in st.session_state.chat_history:
             # Focus on AI responses as they contain most of the world knowledge
             if role == "assistant":
-                # Remove the "hacked" prefix
-                cleaned_message = re.sub(r'^hacked\s*', '', message, flags=re.IGNORECASE)
                 # Remove think tags content
                 cleaned_message = re.sub(r'<think>.*?</think>', '', cleaned_message, flags=re.DOTALL)
                 all_text += cleaned_message + "\n\n"
@@ -378,8 +376,6 @@ def extract_knowledge_graph():
             if role == "assistant":
                 # Remove think tags content
                 clean_message = re.sub(r'<think>.*?</think>', '', message, flags=re.DOTALL)
-                # Remove the "hacked" prefix
-                clean_message = re.sub(r'^hacked\s*', '', clean_message, flags=re.IGNORECASE)
             else:
                 clean_message = message
                 
